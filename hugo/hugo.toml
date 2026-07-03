@@ -1,5 +1,5 @@
 baseURL = 'https://a-creative.website'
 locale = 'en-us'
 title = 'ACS | a creative solution.'
-theme = 'archie'
+theme="archie"
 
