@@ -1,2 +1,60 @@
-# ooofruitsnacks.github.io
-hello testing time to update website
+baseURL = "https://a-creative.website"
+languageCode = "en-us"
+title = "a creative solution | Owen Edwards"
+theme="archie"
+copyright = "© Athul"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourDisqusShortname"
+
+[pagination]
+  pagerSize = 3 # articles per page
+
+[params]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "creative problems need creative solutions."
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/ooofruitsnacks/a-creative-website"
+
+[[params.social]]
+name = "Codeberg"
+icon = "codeberg"
+url = "https://codeberg.org/ooofruitsnacks"
+
+[[params.social]]
+name = "Youtube"
+icon = "youtube"
+url = "www.youtube.com/@Internetpimp
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
