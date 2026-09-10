@@ -1,8 +1,3 @@
-+++
-date = '2026-09-10T19:07:41-04:00'
-draft = true
-title = 'Blog 001'
-
 How I Accidentally Created Odin's First SDK While Making a Videogame
 
 An "under the hood" deep-dive into my video game written in Odin that ships eight binaries across four operating systems, two CPU architectures, and builds it's own compiler from source and bootstraps that compiler to build the game. It's truly madness! Odin is young. There's no __Cargo__ or __go__ build cross-compilation ecosystem of prebuilt runners, no __crates.io__ of packaging helpers, and no __Flathub__ SDK extension. Most Odin projects handle this by not handling it at all, no offense to those other projects.
@@ -259,5 +254,3 @@ clang++ -x c++ -std=c++17 -fsyntax-only "$HEADER"
 ```
 
 So if you learn anything from this blog post, make sure to remember to syntax-check the output before you feed it to a build that takes an hour and a half...lol.
-
-+++
