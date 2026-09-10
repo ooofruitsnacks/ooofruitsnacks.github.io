@@ -1,8 +1,8 @@
 baseURL = "https://a-creative.website/"
-languageCode = "en-us"
+languageCode = "en-US"
 title = "a creative solution | Owen Edwards"
 theme = "archie"
-copyright = "© Owen Edwards"
+copyright = "Owen Edwards 2026© "
 
 [pagination]
   pagerSize = 6
@@ -23,12 +23,12 @@ copyright = "© Owen Edwards"
   weight = 1
 
 [[menu.main]]
-  name = "Posts"
+  name = "Blog Posts"
   url = "/posts/"
   weight = 2
 
 [[menu.main]]
-  name = "About"
+  name = "About Me"
   url = "/about/"
   weight = 3
 
