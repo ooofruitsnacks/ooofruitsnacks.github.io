@@ -1,7 +1,3 @@
----
-title = "About"
-draft = false
----
 
 Hi, I'm Owen Edwards.
 
