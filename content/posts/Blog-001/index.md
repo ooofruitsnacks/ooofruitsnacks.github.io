@@ -1,10 +1,7 @@
-<div align="center">
 
 # How I Accidentally Created Odin's First SDK While Making a Videogame
 
 ### Blog Post 001
-
-</div>
 
 An "under the hood" deep-dive into my video game written in Odin that ships eight binaries across four operating systems, two CPU architectures, and builds it's own compiler from source and bootstraps that compiler to build the game. It's truly madness! Odin is young. There's no __Cargo__ or __go__ build cross-compilation ecosystem of prebuilt runners, no __crates.io__ of packaging helpers, and no __Flathub__ SDK extension. Most Odin projects handle this by not handling it at all, no offense to those other projects.
 
@@ -81,9 +78,6 @@ FuzzyBuddyFarms/
 | `fuzzybuddyfarms.odin` | The whole game, one Odin package lol. | `odin build` |
 | `net.odin` | Networking module/package | `odin build` |
 
-
-<div align="center">
-
 Actions Workflow
 
 ```
@@ -105,9 +99,6 @@ Actions Workflow
        └──────────┘
 ```
 
-</div>
-
----
 __Other Cool Highlights:__
 
 The game ships and runs on __Raspberry Pi OS (Bookworm)__. This shouldn't be possible and really there was no need to support __bookworm__. However I am stupid. __Bookworm__ was shipped with **glibc 2.36** but **Odin's** prebuilt toolchain and vendored **libraylib.a** are both compiled on __Ubuntu 24.04__ which ships with **glibc 2.39.** This can't be cross compiled to run on __Bookworm__ but between 2.36 and 2.39 **glibc** introduced symbol versioning aliases **__isoc23_strtol** and **__isoc23_sscanf**. When you compile against a modern **glibc** header with a C23-ish standard mode, any calls to **strtol** get redirected at compile time to **__isoc23_strtol**. So **libraylib.a** built on __Ubuntu 24.04__ contains undefined symbols that do not exist in **glibc 2.36**. If you were to link it on __Bookworm__ it would return a wall of undefined symbol errors from inside a static library you didn't compile and can't easily rebuild. 
@@ -199,10 +190,6 @@ I wanted to get my game published to **Flathub** as well, this will help massive
 
 Everything is pinned to a tag and commit SHA256, so the build is completely byte-reproducible even if the tag is moved upstream. This is something I'm very proud of, building the compiler itself as a workflow dependency and targeting cross-architecture, **twice**, for every release. **Odin's** compiler is written in **C++** that links **libLLVM**. **Flathub** has __org.freedesktop.Sdk.Extension.llvm20__. The main problem is that extension isn't built with every **LLVM** target enabled and the targets it does have depends on the host architecture. It doesn't target x86 and RISCV which I want to include support for. Odin's **build_odin.sh** assumes a full **LLVM** in two independent ways.
 
-___
-
-<div align="center">
-
 __Issue 1:__ It runs llvm-config --libs core native passes arm aarch64 x86 webassembly riscv. 
 
 llvm-config errors out on an unknown component name.
@@ -210,10 +197,6 @@ llvm-config errors out on an unknown component name.
 __Issue 2:__ The compiler source calls LLVMInitializeX86TargetInfo(), LLVMInitializeRISCVTarget(), etc. unconditionally. 
 
 Even if you fix the first problem you would still get undefined symbol errors at link time. 
-
-</div>
-
-___
 
 __Fix 1:__
 The script writes a wrapper shell script, puts that script first on **PATH**, and points **LLVM_CONFIG** at it. The wrapper asks the real **llvm-config** **--targets-built** then filters unavailable component names out of the argument list before forwarding:
