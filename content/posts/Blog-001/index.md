@@ -1,5 +1,7 @@
++++
 date = '2026-09-10T19:19:20-04:00'
 title = 'Blog Post 001 - How I Accidentally Created Odin's First SDK Building My Videogame'
++++
 
 An "under the hood" deep-dive into my video game written in Odin that ships eight binaries across four operating systems, two CPU architectures, and builds it's own compiler from source and bootstraps that compiler to build the game. It's truly madness! Odin is young. There's no __Cargo__ or __go__ build cross-compilation ecosystem of prebuilt runners, no __crates.io__ of packaging helpers, and no __Flathub__ SDK extension. Most Odin projects handle this by not handling it at all, no offense to those other projects. To get around this I had to create my own software dev kit for Odin, hopefully this information can help you too:
 
