@@ -5,7 +5,7 @@ theme = "archie"
 copyright = "© Owen Edwards"
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 6
 
 [params]
   mode = "auto"
