@@ -10,7 +10,7 @@ copyright = "© Owen Edwards"
 [params]
   mode = "auto"
   useCDN = false
-  subtitle = "Notes, projects, and things I'm learning."
+  subtitle = "Notes, projects, and things I'm learning :)"
 
 [[params.social]]
   name = "GitHub"
