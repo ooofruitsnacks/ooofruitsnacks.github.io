@@ -1,6 +1,11 @@
-How I Accidentally Created Odin's First SDK While Making a Videogame
+---
+date = '2026-09-10T19:19:20-04:00'
+title = 'Blog Post 001 - How I Accidentally Created Odin's First SDK Building My Videogame'
+---
 
-An "under the hood" deep-dive into my video game written in Odin that ships eight binaries across four operating systems, two CPU architectures, and builds it's own compiler from source and bootstraps that compiler to build the game. It's truly madness! Odin is young. There's no __Cargo__ or __go__ build cross-compilation ecosystem of prebuilt runners, no __crates.io__ of packaging helpers, and no __Flathub__ SDK extension. Most Odin projects handle this by not handling it at all, no offense to those other projects.
+An "under the hood" deep-dive into my video game written in Odin that ships eight binaries across four operating systems, two CPU architectures, and builds it's own compiler from source and bootstraps that compiler to build the game. It's truly madness! Odin is young. There's no __Cargo__ or __go__ build cross-compilation ecosystem of prebuilt runners, no __crates.io__ of packaging helpers, and no __Flathub__ SDK extension. Most Odin projects handle this by not handling it at all, no offense to those other projects. To get around this I had to create my own software dev kit for Odin, hopefully this information can help you too:
+
+## How everything works
 
 My repo instead:
 
@@ -18,7 +23,7 @@ My repo instead:
 
 -Ships eight verified artifacts with checksums from a single git tag
 
-## Repository Structure
+## Repo Structure
 
 ```
 FuzzyBuddyFarms/
@@ -75,7 +80,7 @@ FuzzyBuddyFarms/
 | `fuzzybuddyfarms.odin` | The whole game, one Odin package lol. | `odin build` |
 | `net.odin` | Networking module/package | `odin build` |
 
-Actions Workflow
+## Actions Workflow
 
 ```
          ┌─────────┐
@@ -98,7 +103,7 @@ Actions Workflow
 
 ---
 
-__Other Cool Highlights:__
+## Other Cool Highlights
 
 The game ships and runs on __Raspberry Pi OS (Bookworm)__. This shouldn't be possible and really there was no need to support __bookworm__. However I am stupid. __Bookworm__ was shipped with **glibc 2.36** but **Odin's** prebuilt toolchain and vendored **libraylib.a** are both compiled on __Ubuntu 24.04__ which ships with **glibc 2.39.** This can't be cross compiled to run on __Bookworm__ but between 2.36 and 2.39 **glibc** introduced symbol versioning aliases **__isoc23_strtol** and **__isoc23_sscanf**. When you compile against a modern **glibc** header with a C23-ish standard mode, any calls to **strtol** get redirected at compile time to **__isoc23_strtol**. So **libraylib.a** built on __Ubuntu 24.04__ contains undefined symbols that do not exist in **glibc 2.36**. If you were to link it on __Bookworm__ it would return a wall of undefined symbol errors from inside a static library you didn't compile and can't easily rebuild. 
 
@@ -254,3 +259,4 @@ clang++ -x c++ -std=c++17 -fsyntax-only "$HEADER"
 ```
 
 So if you learn anything from this blog post, make sure to remember to syntax-check the output before you feed it to a build that takes an hour and a half...lol.
+
