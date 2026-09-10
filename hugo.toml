@@ -1,0 +1,34 @@
+baseURL = "https://a-creative.website/"
+languageCode = "en-us"
+title = "a creative solution | Owen Edwards"
+theme = "archie"
+copyright = "© Owen Edwards"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  mode = "auto"
+  useCDN = false
+  subtitle = "Notes, projects, and things I'm learning."
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/ooofruitsnacks"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
