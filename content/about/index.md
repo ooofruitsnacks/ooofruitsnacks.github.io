@@ -1,6 +1,3 @@
----
-date: "2026"
----
 
 __Programmer, Automotive Photographer, Ferrari Historian, Dumbass__
 
