@@ -2,7 +2,7 @@ baseURL = "https://a-creative.website/"
 languageCode = "en-US"
 title = "a creative solution | Owen Edwards"
 theme = "archie"
-copyright = "Owen Edwards 2026© "
+copyright = "Owen Edwards © "
 
 [pagination]
   pagerSize = 6
