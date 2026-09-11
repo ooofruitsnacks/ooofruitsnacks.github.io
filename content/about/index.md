@@ -1,3 +1,6 @@
+---
+title: "About Me"
+---
 
 __Programmer, Automotive Photographer, Ferrari Historian, Dumbass__
 
