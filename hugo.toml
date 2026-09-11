@@ -10,7 +10,7 @@ copyright = "Owen Edwards 2026© "
 [params]
   mode = "auto"
   useCDN = false
-  subtitle = "Notes, projects, and things I'm learning :)"
+  subtitle = "Creative ideas need creative solutions. Here's all my solutions :)"
 
 [[params.social]]
   name = "GitHub"
@@ -18,7 +18,7 @@ copyright = "Owen Edwards 2026© "
   url = "https://github.com/ooofruitsnacks"
 
 [[menu.main]]
-  name = "Home"
+  name = "Home Page"
   url = "/"
   weight = 1
 
