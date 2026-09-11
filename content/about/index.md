@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: "2026"
+date: "2026-09-10"
 ---
 
 __Programmer, Automotive Photographer, Ferrari Historian, Dumbass__
