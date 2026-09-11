@@ -2,7 +2,7 @@ baseURL = "https://a-creative.website/"
 languageCode = "en-US"
 title = "a creative solution | Owen Edwards"
 theme = "archie"
-copyright = "Owen Edwards © "
+copyright = "| a creative solution | Owen Edwards"
 
 [markup]
   [markup.highlight]
@@ -52,7 +52,16 @@ copyright = "Owen Edwards © "
   weight = 3
 
 [[menu.main]]
-  name = "About Me"
-  url = "/about/"
+  name = "Search"
+  url = "/search/"
   weight = 4
 
+[[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 6
