@@ -1,4 +1,8 @@
-# Programmer, Automotive Photographer, Ferrari Historian, Dumbass
+---
+date: "2026"
+---
+
+__Programmer, Automotive Photographer, Ferrari Historian, Dumbass__
 
 Hi, my name is Owen Edwards.
 
@@ -10,7 +14,7 @@ Hi, my name is Owen Edwards.
 
 [Email](467487@PM.ME)
 
----
+**Follow along my projects with the source code and videos**
 
 - [Github](https://github.com/ooofruitsnacks)
 - YouTube: [Owen Edwards](https://https://www.youtube.com/@Internetpimp)
