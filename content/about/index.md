@@ -9,12 +9,12 @@ Hi, my name is Owen Edwards.
 
 **If you want to reach out to me:**
 
-[Email](467487@PM.ME)
+**Email: 467487@PM.ME**
 
 **Follow along my projects with the source code and videos**
 
 - [Github](https://github.com/ooofruitsnacks)
-- YouTube: [Owen Edwards](https://https://www.youtube.com/@Internetpimp)
+- YouTube: [Owen Edwards](https://www.youtube.com/@Internetpimp)
 
 **This website was made possible by other open source projects**
 
