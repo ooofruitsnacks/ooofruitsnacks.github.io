@@ -13,6 +13,13 @@ copyright = "Owen Edwards © "
     noClasses = true
     style = "github-dark"
 
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.typographer]
+        disable = true
+
 [pagination]
   pagerSize = 6
 
