@@ -61,7 +61,3 @@ copyright = "| a creative solution | Owen Edwards"
   url = "/about/"
   weight = 5
 
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 6
