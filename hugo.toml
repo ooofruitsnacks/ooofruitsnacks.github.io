@@ -47,7 +47,12 @@ copyright = "Owen Edwards © "
   weight = 2
 
 [[menu.main]]
+  name = "My Projects"
+  url = "/my_projects/
+  weight = 3
+
+[[menu.main]]
   name = "About Me"
   url = "/about/"
-  weight = 3
+  weight = 4
 
