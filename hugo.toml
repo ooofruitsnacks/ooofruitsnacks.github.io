@@ -4,13 +4,25 @@ title = "a creative solution | Owen Edwards"
 theme = "archie"
 copyright = "Owen Edwards © "
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    style = "github-dark"
+
 [pagination]
   pagerSize = 6
 
 [params]
-  mode = "auto"
+  mode = "dark"
   useCDN = false
-  subtitle = "Creative ideas need creative solutions. Here's all my solutions :)"
+  subtitle = "Creative ideas need creative solutions. Here's all my solutions :)"a
+  [params.author]
+    email = '467487@pm.me'
+    name = 'Owen Edwards'
 
 [[params.social]]
   name = "GitHub"
