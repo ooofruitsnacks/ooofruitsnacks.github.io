@@ -11,9 +11,9 @@ copyright = "Owen Edwards © "
   mode = "dark"
   useCDN = false
   subtitle = "Creative ideas need creative solutions. Here's all my solutions :)"a
-  [params.author]
-    email = '467487@pm.me'
-    name = 'Owen Edwards'
+[params.author]
+  email = '467487@pm.me'
+  name = 'Owen Edwards'
 
 [[params.social]]
   name = "GitHub"
