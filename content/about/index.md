@@ -1,13 +1,16 @@
+# Programmer, Automotive Photographer, Ferrari Historian, Dumbass
 
-Hi my name is Owen Edwards.
+Hi, my name is Owen Edwards.
 
-## Programmer, Automotive Photographer, Ferrari Historian, Dumbass
+ I am a 26 year old hobbyist-developer and I'm still learning as much as I can! I love Ferrari, Photography, Programming and building Raspberry Pi projects. I'm very passionate about open source/accessible projects and I love supporting them. This is why I make all my projects open source and try to document as much as I can about them. This website will be home to all my programming/open source projects, tech "under the hood" deep dives, and more as I get everything setup.
 
-I am a 26 year old hobbyist-developer and I'm still learning as much as I can! I love Ferrari, Photography, Programming and building Raspberry Pi projects. I'm very passionate about open source/accessible projects and I love supporting them. This is why I make all my projects open source and try to document as much as I can about them. This website will be home to all my programming/open source projects, tech "under the hood" deep dives, and more as I get everything setup.
+ ---
 
 **If you want to reach out to me:**
 
-**EMAIL:** ```467487@PM.ME```
+[Email](467487@PM.ME)
+
+---
 
 - [Github](https://github.com/ooofruitsnacks)
 - YouTube: [Owen Edwards](https://https://www.youtube.com/@Internetpimp)
