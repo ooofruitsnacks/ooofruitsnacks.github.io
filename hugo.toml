@@ -4,22 +4,6 @@ title = "a creative solution | Owen Edwards"
 theme = "archie"
 copyright = "Owen Edwards © "
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = false
-    lineNumbersInTable = false
-    noClasses = true
-    style = "github-dark"
-
-    [markup.goldmark]
-      [markup.goldmark.renderer]
-        unsafe = true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.typographer]
-        disable = true
-
 [pagination]
   pagerSize = 6
 
