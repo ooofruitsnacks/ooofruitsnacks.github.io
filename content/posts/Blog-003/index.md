@@ -15,7 +15,7 @@ __Self Hosting Made Simple__
   class="insert-image"
 >}}
 
-Everyone wants a cool website to show off their work or post blogs to (like me) but nobody wants to get looped into the endless subsription fees. Most people end paying a subsription fee to a domain provider, access to cool website templates(if you don't know what you're doing), extra cloud storage, paying for community add-ons, paying for analytics etc. Before you know it your silly website is costing you $80 a month. People assume the only cheap alternative is using a free boring wix website but I'm here to tell you about the beautiful world of Hugo.
+Everyone wants a cool website to show off their work or post blogs (like me) but nobody wants to get looped into the endless subsription fees. Most people end up paying a subsription fee to a domain provider, access to cool website templates(if you don't know what you're doing), extra cloud storage, paying for community add-ons, paying for analytics etc. Before you know it your silly website is costing you $80 a month. People assume the only cheap alternative is using a free boring wix website but I'm here to tell you about the beautiful world of Hugo.
 
 **Are you more of a visual learner? No problem! A youtube guide will be posted soon for you to follow along! Links posted below :)**
 
@@ -27,7 +27,7 @@ __Requirements__
 - Hugo
 - Custom Domain (optional)
 
-Before we get started you will need the above downloaded onto your machine, for beginners it can seem intimidating but it's very simple to follow along. I will post more an in depth blog that focuses on Git later on, for now you can follow these steps below to start self hosting your own website with Github pages and Hugo.
+Before we get started you will need the above downloaded onto your machine, for beginners it can seem intimidating but it's very simple to follow along. I will post an in depth blog that focuses on Git later on, for now you can follow these steps below to start self hosting your own website with Github pages and Hugo.
 
 ## Homebrew
 
