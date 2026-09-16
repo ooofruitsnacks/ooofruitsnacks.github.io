@@ -9,6 +9,7 @@ __Current Projects__
 
 - [FuzzyBuddyFarms](https://github.com/ooofruitsnacks/fuzzybuddyfarms)
 - Vision Assistant
+- [Turtle](https://github.com/ooofruitsnacks/turtle)
 
 __What I'm Learning__
 
