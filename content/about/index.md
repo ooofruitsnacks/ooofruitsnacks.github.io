@@ -21,8 +21,6 @@ date: "2026-09-10"
   </a>
   <a href="mailto:467487@pm.me">
     <img src="https://img.shields.io/badge/Email-467487%40pm.me-111827?style=flat-square&logo=proton&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=ooofruitsnacks&style=flat-square&color=2563EB" />
 </p>
 
 __Programmer, Automotive Photographer, Ferrari Historian, Dumbass__
