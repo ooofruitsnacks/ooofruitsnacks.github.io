@@ -16,6 +16,10 @@ date: "2026-09-10"
 </p>
 
 <p align="center">
+  <img src="https://streak-stats.demolab.com?user=ooofruitsnacks&theme=tokyonight&hide_border=true&border_radius=12&hide_total_contributions=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
   <a href="https://matrix.to/#/%23button-pushers:matrix.org">
     <img src="https://img.shields.io/badge/Matrix-%40oooFruitSnacks-26A5E4?style=flat-square&logo=matrix&logoColor=white" />
   </a>
