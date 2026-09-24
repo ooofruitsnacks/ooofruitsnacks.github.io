@@ -7,11 +7,23 @@ date: "2026-09-11"
 
 __Current Projects__
 
-- [FuzzyBuddyFarms](https://github.com/ooofruitsnacks/fuzzybuddyfarms) ![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/fuzzybuddyfarms)
-- Vision Assistant
-- [Turtle](https://github.com/ooofruitsnacks/turtle) ![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/turtle)
+**FuzzyBuddyFarms - Bee farmer videogame**
 
-__What I'm Learning__
+[![fuzzybuddyfarms](https://svg.bookmark.style/api?url=https://github.com/ooofruitsnacks/fuzzybudyfarms)](https://github.com/ooofruitsnacks/fuzzybuddyfarms)
+
+![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/fuzzybuddyfarms)
+
+**Vision Assistant**
+
+currently in private development.
+
+**Turtle - Locally hosted CLI LLM coding assistant**
+
+[![turtle](https://svg.bookmark.style/api?url=https://github.com/ooofruitsnacks/turtle)](https://github.com/ooofruitsnacks/turtle)
+
+![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/turtle)
+
+# What I'm Learning
 
 - Odin 
 - Markdown lol
