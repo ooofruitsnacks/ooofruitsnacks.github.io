@@ -3,9 +3,11 @@ title: "About Me"
 date: "2026-09-10"
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&width=850&lines=building+open+source+projects;having+fun+and+learning;eating+fruitsnacks+somewhere;Coffee%2C+Code%2C+Race%2C+Repeat" alt="Typing SVG" />
-</p>
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=F0F738&center=true&vCenter=true&width=850&lines=building+open+source+projects;having+fun+and+learning;eating+fruitsnacks+somewhere;Coffee%2C+Code%2C+Race%2C+Repeat)](https://git.io/typing-svg)
+
+</div>
 
 <p align="center">
   <picture>
