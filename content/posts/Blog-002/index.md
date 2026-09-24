@@ -1,5 +1,5 @@
 ---
-date: "2026-09-10"
+date: "2026-09-11"
 title: "Blog Post 002 - Why you should be purchasing the Raspberry Pi 500+ in 2026"
 tags: ['Raspberry Pi', 'SBC', '500+', '2026', '002']
 ---
