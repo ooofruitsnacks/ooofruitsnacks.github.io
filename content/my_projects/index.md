@@ -9,8 +9,6 @@ __Current Projects__
 
 **FuzzyBuddyFarms - Bee farmer videogame**
 
-[![fuzzybuddyfarms](https://svg.bookmark.style/api?url=https://github.com/ooofruitsnacks/fuzzybudyfarms)](https://github.com/ooofruitsnacks/fuzzybuddyfarms)
-
 ![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/fuzzybuddyfarms)
 
 **Vision Assistant**
