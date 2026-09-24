@@ -7,9 +7,9 @@ date: "2026-09-11"
 
 __Current Projects__
 
-- [FuzzyBuddyFarms](https://github.com/ooofruitsnacks/fuzzybuddyfarms)
+- [FuzzyBuddyFarms](https://github.com/ooofruitsnacks/fuzzybuddyfarms) ![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/fuzzybuddyfarms)
 - Vision Assistant
-- [Turtle](https://github.com/ooofruitsnacks/turtle)
+- [Turtle](https://github.com/ooofruitsnacks/turtle) ![GitHub Release](https://img.shields.io/github/v/release/ooofruitsnacks/turtle)
 
 __What I'm Learning__
 
