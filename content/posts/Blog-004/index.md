@@ -60,22 +60,6 @@ If you have issuess:
   class="insert-image"
 >}}
 
-{{< figure
-  src="./ex2.png"
-  alt="Buffalo Drive 2"
-  width="700"
-  height="auto"
-  class="insert-image"
->}}
-
-{{< figure
-  src="./ex3.png"
-  alt="Buffalo Drive 3"
-  width="700"
-  height="auto"
-  class="insert-image"
->}}
-
 I chose the Buffalo BRXL-PUS6U3B because it is compatible with the LGBU40N, which many media enthusiasts praise due to it's ability to rip all forms of media including Blu ray 4kUHD. Cheaper drives will not be able to do this and even struggle with blu ray. The buffalo drive is a bit pricy I understand but trust me it's worth the money. After purchasing your Buffalo drive, plug the drive into your computer and plug the external usb power source into an outlet nearby. For watching movies you will be fine with powering the drive from your machine, but when ripping movies it can require more power so it's best to do this to prevent any read/write errors. Go to [MakeMKV Download Section](https://www.makemkv.com/download/) and download Makemkv. Now we will need to flash the LibreDrive firmware onto the Buffalo drive so you can backup your media with Makemkv. Currently you can backup regular dvd's but if you want to rip blu rays/4k+4kUHD blu rays then you will need LibreDrive flashed, this program communicates directly with the drive using low level SCSI pass through commands.
 
 If you notice the box says the drive is not compatible with UHD, don't worry this is false.
@@ -210,7 +194,7 @@ But if you download a tv show for example, it will be titled ```Batman_Beyond```
 Now open up Jellyfin, assuming you have setup your server and created your account, go to your settings dashboard and open libraries to add your TV and Movie libraries you created. 
 
 {{< figure
-  src="./.ex13png"
+  src="./ex13.png"
   alt="jellyfin dashboard"
   width="700"
   height="auto"
@@ -220,7 +204,7 @@ Now open up Jellyfin, assuming you have setup your server and created your accou
 Go back to the main dashboard landing page, scan all libraries and wait, then hit restart server and close out of Jellyfin. Open up Jellyfin again after 30 seconds and watch your content appear. Jellyfin has support for pretty much everything so now you can sign into jellyfin off your laptop, apple tv, iphone, android, samsung, google tv, amazon firestick, whatever you want. For apple users it's probably called SwiftinIOS but you can check the official list here [Jellyfin Clients](https://jellyfin.org/downloads/clients/all/) .
 
 {{< figure
-  src="./.ex14png"
+  src="./ex14.png"
   alt="jellyfin dashboard main page"
   width="700"
   height="auto"
