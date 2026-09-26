@@ -1,5 +1,5 @@
 ---
-date: "2026-09-15"
+date: "2026-09-26"
 title: "Blog Post 004 - How To Rip Blu-Ray (4k+4kUHD) With Buffalo"
 tags: ['MakeMKV', 'Jellyfin', 'self host', 'handbrake', 'dvd', 'blu ray', '2026', '004']
 slug:  'jellyex.png'
