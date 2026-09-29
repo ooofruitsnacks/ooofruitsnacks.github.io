@@ -39,6 +39,8 @@ Not at all! If you find a better deal or don't need 2TB then feel free to swap i
 
  I decided to purchase the Samsung 990PRO 2TB (no heatsink) and the OWC Express 1M2 USB4 enclosure, you __HAVE__ to use the non-heat sink variant for your SSD. The OWC case includes the proper thermal pads to make full contact with the board and the SSD with the case. Since the entire case is aluminum with a radiator design this allows for passive cooling with a quiet experience. No fans needed! If you feel the case getting warm don't be worried that means it's actively pulling heat away from the internals and to the aluminum body. This means the passive cooling system is working! The case itself acts as the heat sink which is why it's not needed and because there isn't enough space for it. It'll save you money that way too. OWC includes everything you will need for your kit, you literally only have to purchase 2 things and I would move fast because the storage I choose is currently on sale and probably going to shoot back up soon. If you were hoping for the downfall of AI data center pricing on PC parts then keep hoping because it's only supposed to get worse.
 
+---
+
 __Tips and Tricks To Assembly__
 
 Assembly of the entire storage device is super simple and straight forward. Follow these steps below to get yours up and running in less than 3 minutes!
@@ -134,7 +136,10 @@ Assembly of the entire storage device is super simple and straight forward. Foll
   height="auto"
   class="insert-image"
 >}}
+
 - Enjoy!
+
+---
 
 __Is This Really That Great Of a Deal?__
 
