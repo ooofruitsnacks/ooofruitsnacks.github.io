@@ -1,6 +1,6 @@
 ---
 date: "2026-09-29"
-draft: true
+draft: false
 title: "Blog Post 005 - Building a Portable SSD That Transfers At 40gbps!!"
 tags: ['Samsung', 'SSD', 'pcie', 'nvme', 'm.2', '005', '2026', 'OWC']
 slug:  'owcsam.png'
